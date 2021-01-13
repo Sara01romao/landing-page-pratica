@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  padding: 5%;
+  text-align: center;
+}
+
+header h1 {
+  margin: 2%;
+  color: rgb(128, 40, 18);
+  animation-name: ani;
+  animation-duration: 4s;
+  animation-direction: alternate;
+}
+
+header h3 {
+  line-height: 1.5;
+  font-size: 1em;
+}
+
+/*************************/
+
+section {
+  width: 100%;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.info img {
+  width: 95%;
+  display: block;
+  margin: 0 auto;
+}
+
+.info p {
+  font-size: 1.2em;
+  padding: 5%;
+  text-align: left;
+}
+
+.redes {
+  text-align: center;
+  margin: 10% 0;
+}
+
+.redes a {
+  margin-right: 30px;
+  font-size: 25px;
+  color: black;
+}
+
+.redes a:last-child {
+  margin-right: 0;
+}
+
+.redes a:hover {
+  color: rgb(194, 45, 45);
+}
+
+/*****************************/
+
+.form {
+  width: 100%;
+  text-align: center;
+  background-color: rgba(110, 34, 34, 0.493);
+  border-radius: 5px;
+  box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.089);
+}
+
+.form h3 {
+  padding: 5% 0 2% 0;
+  font-size: 2em;
+}
+
+.form form {
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+form input {
+  width: 70%;
+  height: 35px;
+  margin-top: 2%;
+  border-radius: 5px;
+  padding: 10px;
+  border: none;
+}
+
+form button {
+  width: 70%;
+  height: 35px;
+  margin-top: 2%;
+  border-radius: 5px;
+  background-color: rgb(99, 25, 25);
+  border: none;
+  font-weight: 700;
+  font-size: 16px;
+  color: #fff;
+
+  box-shadow: 0px 3px 0px 3px rgba(0, 0, 0, 0.541);
+}
+
+form button:hover {
+  background-color: rgb(124, 25, 25);
+}
+
+/************************/
+footer {
+  width: 100%;
+  height: 60px;
+  background-color: rgba(131, 11, 11, 0.267);
+}
+
+footer p {
+  text-align: center;
+  padding: 20px;
+  color: rgb(128, 40, 18);
+  font-weight: bold;
+}
+
+/*******************/
+
+@media screen and (min-width: 960px) {
+  section {
+    display: flex;
+    width: 100%;
+    padding: 5%;
+  }
+
+  header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+  }
+
+  header h3 {
+    line-height: 1.5;
+    font-size: 1.2em;
+  }
+
+  .info {
+    flex: 1;
+    width: 45%;
+    margin-right: 2%;
+  }
+
+  .form {
+    flex: 1;
+    height: 550px;
+
+    margin-bottom: auto;
+  }
+
+  .form form input {
+    margin-top: 20px;
+  }
+}
