@@ -77,6 +77,10 @@
  margin:3% 5% 0 0;
 }
 
+.btn-close i:hover{
+  color:  #2dd118d8 ;
+}
+
 .menu ul{
 width: 100%;
 float: left;
@@ -84,17 +88,22 @@ text-align: center;
 }
 
 .menu li{
+  width: 100%;
 padding: 1.5%;
+margin-top: 5%;
 }
 
 .menu li a{
 font-size: 2em;
 color: #fff;
 padding: 1.5% 3%;
+
 }
 
-.menu li a:hover{
-border-bottom: 3px solid #199908;
+.menu li:hover{
+
+background-color: #2e8a2213 ;
+border: 3px solid #19990857;
 
 }
 
