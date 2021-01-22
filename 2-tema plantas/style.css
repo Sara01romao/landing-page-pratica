@@ -107,3 +107,35 @@ border: 3px solid #19990857;
 
 }
 
+
+/*resposivo menu*/
+
+@media screen and (min-width: 480px){
+
+
+.cabecalho{
+  border-bottom: 1px solid rgb(8, 94, 26);
+  height: 50px;
+}
+
+
+.menu a{
+  color: black;
+}
+
+
+
+
+
+  
+ 
+
+  .btn-menu{
+    display: none;
+  }
+
+  .btn-close{
+    display: none;
+  }
+}
+
