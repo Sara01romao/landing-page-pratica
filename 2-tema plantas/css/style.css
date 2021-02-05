@@ -28,7 +28,7 @@ header{
   
   width: 56px;
   height: 56px;
- 
+ cursor: pointer;
   
 }
 
@@ -44,7 +44,7 @@ header{
   top: 0;
   left: 0;
   background-color: rgba(0, 0, 0, 0.699);
-
+  display: none;
 
 }
 
@@ -90,45 +90,53 @@ header{
 /*==========Responsivo==========*/
 
 @media screen and (min-width: 1280px){
+ .logo{
+    background: url(../img/logo.svg) center center/214px no-repeat;
+    width: 200px;
+    height: 40px;
+    margin:0 ;
+ }
+
+
   .btn-menu, .btn-close{
     display: none;
   }
 
-  header{
+ .cabecalho{
+   height: 30px;
     display: flex;
+    flex-direction: row;
+    align-items: center;
     justify-content: space-between;
   }
 
-  .logo{
-    width: 56px;
-    height: 56px;
-  }
+.menu{
+  width: 500px;
+  height: 0;
+  margin-left: 50%;
+  display: block;
 
-  .menu{
-    background-color: white;
-  }
-  
-  ul{
-    display: flex;
-    align-items: flex-end;
-    padding-bottom: 0px;
-    list-style: none;
-
-  }
-
-.menu li{
-  margin-left: 20px;
-  position: relative;
 }
 
-  .menu ul li a{
-    color: black;
-  }
+.menu ul{
+  display: flex;
+  flex-direction: row; 
+  margin-top: 0;
+  list-style: none;
+  padding-bottom: 30px;
+}
+
+.menu ul li a{
+  color: Black;
+  font-size: 30px;
+  margin: 0 30px;
 }
 
 
 
 
+
+}
 
 
 
