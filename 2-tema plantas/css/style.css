@@ -1,8 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
+
 *{
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
 }
+
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
 
 a{
   text-decoration: none;
@@ -12,7 +20,7 @@ header{
     display: flex;
      width: 100%;
      padding: 3% 4%;
-     border: 1px solid red;
+     border: 1px solid rgb(5, 73, 5);
      justify-content: space-between;
   }
 
@@ -30,6 +38,7 @@ header{
   height: 56px;
  cursor: pointer;
   
+
 }
 
 
@@ -91,8 +100,8 @@ header{
 
 @media screen and (min-width: 1280px){
  .logo{
-    background: url(../img/logo.svg) center center/214px no-repeat;
-    width: 200px;
+    background: url(../img/logo.svg) center center/180px no-repeat;
+    width: 180px;
     height: 40px;
     margin:0 ;
  }
@@ -111,10 +120,11 @@ header{
   }
 
 .menu{
+  
   width: 500px;
   height: 0;
-  margin-left: 50%;
-  display: block;
+  margin-left: 60%;
+  display: block !important;
 
 }
 
@@ -124,16 +134,30 @@ header{
   margin-top: 0;
   list-style: none;
   padding-bottom: 30px;
+ 
+  height: 56px;
+  position: relative;
+  top: 20px;
+  
 }
 
 .menu ul li a{
-  color: Black;
-  font-size: 30px;
+  color: rgb(5, 73, 5);
+  font-size: 25px;
+  font-weight: bold;
   margin: 0 30px;
+  
+  position: relative;
+  bottom: 25px;
+  
 }
 
+.menu ul li a:hover{
+  color: rgb(128, 197, 128);
+  border-bottom: 2px solid rgb(5, 73, 5);
+  ;
 
-
+}
 
 
 }
