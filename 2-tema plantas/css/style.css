@@ -164,4 +164,31 @@ header{
 
 
 
-  
+
+/*====BANNER===*/
+.banner{
+ 
+ text-align: center;
+
+  background-image: url(/img/mudas.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: top;
+  background-position-y: -150px;
+  height: 500px;
+
+  color: white;
+
+}
+
+.banner h1{
+  font-size: 5em;
+  padding-top: 15%;
+  margin-bottom: 50px;
+}
+
+.banner button{
+  width: 250px;
+  height: 50px;
+  background-color: rgb(206, 188, 26);
+}
