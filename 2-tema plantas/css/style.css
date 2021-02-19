@@ -192,3 +192,36 @@ header{
   height: 50px;
   background-color: rgb(206, 188, 26);
 }
+
+
+
+.card{
+  width:292px;
+  height: 345px;
+  background: rgba(56, 56, 56, 0.86);
+  border-radius: 10px;
+
+  text-align: center;
+
+  margin: 50px auto;
+}
+
+.card img{
+  width: 292px;
+height: 142px;
+margin:20px auto
+
+
+}
+
+.imgCard{
+  width: 292px;
+height: 180px;
+background: url(.jpg), rgba(56, 56, 94, 0.62);
+border-radius: 10px;
+margin:20px auto;
+}
+
+.card p{
+  padding: 0 30px;
+}
