@@ -1,9 +1,15 @@
-//para mostar menu
-$(".btn-menu").click(function(){
-  $(".menu").show();
-});
+const menu= document.querySelector('.iconMenu');
 
-//pra fechar o menu
-$(".btn-close").click(function(){
-  $(".menu").hide();
-});
+const navMenu=document.querySelector('.nav-menu');
+
+
+menu.addEventListener("click", function(){
+      navMenu.classList.add('active')
+     
+     
+})
+
+
+document.querySelector('.closeMenu').addEventListener("click", function(){
+  navMenu.classList.remove('active')
+})
