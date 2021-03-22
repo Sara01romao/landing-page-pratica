@@ -4,9 +4,12 @@
   box-sizing: border-box;
 }
 
+a{
+  text-decoration: none;
+}
 
 header{
-  background-color: rgba(250, 178, 178, 0.911);
+  background-color:#0c907d;
   height: 50px;
   
 }
@@ -17,7 +20,7 @@ header{
 }
 
 .nav-menu{
-  background-color: rgba(23, 1, 44, 0.849);
+  background-color: rgba(0, 0, 0, 0.849);
   width: 100%;
   position: fixed;
   height: 100%;
@@ -30,12 +33,17 @@ header{
 }
 
 .closeMenu i{
-  background-color: chartreuse;
+  background-color: #0c907d;
   position: absolute;
   right: 8px;
   top: 8px;
   cursor: pointer;
 }
+
+.closeMenu i:hover{
+  background-color: #2cb4a0fb;
+}
+
 
 img{
  
@@ -48,7 +56,7 @@ img{
   margin-top: 58px;
   list-style: none;
   color: white;
-  border: 2px solid blue;
+
   width: 100%;   
 
  
@@ -65,27 +73,29 @@ img{
   font-size: 20px;
   font-weight: bold;
   
-  border: 1px solid rgb(105, 4, 100);
+  border-bottom: 1px solid #0d627a;
 
   text-align: center;
   
 }
 
 .nav-menu ul li:hover{
-  border: 5px solid white;
+  border: 5px solid #27dabf;
+
 }
 
 .nav-menu ul li a{
- 
-  
-  border: 1px solid yellow;
+ color: white;
+ display: block;
+  padding: 6px 0 10px 0;
+
   position: relative;
-  top: 10px;
+  top: 0px;
   
 }
 
 .nav-menu  li a:hover{
-  color: blueviolet;
+  color: #14b9a3;
 }
 
 .nav-menu.active{
